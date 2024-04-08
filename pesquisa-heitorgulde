@@ -30,5 +30,8 @@ git clone <url-do-repositório> Clona um repositório remoto para o diretório l
 git push: Envia as alterações locais para um repositório remoto.
 git pull Obtém as alterações de um repositório remoto e mescla com o repositório local.
 
-### Referências: 
+### Referências: Atlassian.com
+
+# Pesquisa git hub
+GitHub é uma plataforma de desenvolvimento colaborativo baseada na web, construída em torno do sistema de controle de versão Git. É amplamente utilizada por desenvolvedores para hospedar, revisar e colaborar em projetos de software.
 
