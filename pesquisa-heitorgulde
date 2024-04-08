@@ -1,116 +1,34 @@
-# Pesquisa git 
 
-Git é um sistema de controle de versão distribuído, projetado para lidar com tudo, desde projetos pequenos até grandes projetos, com rapidez e eficiência. Ele é amplamente utilizado por desenvolvedores de software para rastrear e gerenciar mudanças no código fonte durante o desenvolvimento de software colaborativo.
-O Git foi criado por Linus Torvalds em 2005, o mesmo criador do kernel Linux, para gerenciar o desenvolvimento do kernel Linux. Desde então, tornou-se um dos sistemas de controle de versão mais populares do mundo, amplamente adotado pela comunidade de desenvolvimento de software devido à sua velocidade, eficiência e robustez.
+# Pesqauisa git 
+ 
+### Introdução
 
-Conceitos Principais
-Repositório
-Um repositório Git é um diretório onde o seu projeto está armazenado, incluindo todos os arquivos e histórico de revisão.
+O Git é um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento de software. Ele permite que os desenvolvedores controlem as alterações em seu código, colaborem com outros e revertam para versões anteriores conforme necessário.
 
-Commit
-Um commit é uma operação que salva as alterações feitas nos arquivos do projeto em um determinado momento, juntamente com uma mensagem descritiva. Cada commit é identificado por um hash único.
+### Conceitos Básicos
 
-Branch
-Uma branch no Git é uma linha de desenvolvimento independente que pode ser criada a partir do commit atual. Elas permitem que os desenvolvedores trabalhem em funcionalidades ou correções de bugs sem interferir no código principal do projeto.
+Repositório: Local onde o projeto é armazenado.
+Commit: Confirmação de alterações com mensagem explicativa.
+Branch: Ramificação do código principal.
+Merge: Combinação de alterações de um branch para outro.
+Clone: Cópia completa do repositório localmente.
+Push: Envia alterações locais para o repositório remoto.
+Pull: Obtém e mescla alterações do repositório remoto.
 
-Merge
-O merge é o processo de combinar as alterações de uma branch em outra, geralmente mesclando o código de uma branch secundária de volta para a branch principal.
-
-Pull Request
-Um pull request é uma solicitação feita por um desenvolvedor para mesclar as alterações de uma branch em outra, geralmente usada em ambientes colaborativos para revisão de código por pares.
-
+###
 Principais Comandos
-git init
-Inicializa um novo repositório Git.
 
-git clone
-Clona um repositório Git existente para o seu computador.
+git init: Inicializa um repositório Git em um diretório.
+git add : Adiciona um arquivo ao área de preparação (staging area) para o próximo commit.
+git commit -m "": Cria um novo commit com as alterações na área de preparação e uma mensagem descritiva.
+git status: Mostra o status atual do repositório.
+git log: Exibe o histórico de commits.
+git branch : Cria um novo branch.
+git checkout : Muda para um branch específico.
+git merge : Mescla as alterações de um branch para o branch atual.
+git clone <url-do-repositório> Clona um repositório remoto para o diretório local.
+git push: Envia as alterações locais para um repositório remoto.
+git pull Obtém as alterações de um repositório remoto e mescla com o repositório local.
 
-git add
-Adiciona arquivos ao índice, preparando-os para o próximo commit.
-
-git commit
-Salva as alterações feitas nos arquivos do projeto em um novo commit.
-
-git push
-Envia os commits locais para um repositório remoto.
-
-git pull
-Obtém as atualizações de um repositório remoto e aplica essas alterações no repositório local.
-
-git merge
-Combina as alterações de uma branch em outra.
-
-Conclusão
-Git é uma ferramenta poderosa e fundamental para o desenvolvimento de software colaborativo. Com sua capacidade de rastrear e gerenciar alterações de código de forma eficiente, o Git facilita a colaboração entre os membros da equipe e o gerenciamento do desenvolvimento de software em qualquer escala.
-
-# Pesquisa git hub 
-
-GitHub é uma plataforma de hospedagem de código fonte baseada em Git, que permite que os desenvolvedores colaborem em projetos, compartilhem código e controlem revisões de forma eficiente. Fundado em 2008, o GitHub se tornou uma das maiores e mais influentes comunidades de desenvolvedores do mundo.
-
-História
-GitHub foi lançado em abril de 2008 por Tom Preston-Werner, Chris Wanstrath e PJ Hyett. Inicialmente, o GitHub foi concebido como um serviço de hospedagem para projetos de código aberto, mas rapidamente ganhou popularidade devido à sua interface amigável, recursos de colaboração e integração com o Git. Em 2018, a Microsoft adquiriu o GitHub por US$ 7,5 bilhões.
-
-Recursos Principais
-Repositórios
-Os repositórios no GitHub são locais onde o código fonte de um projeto é armazenado. Cada repositório possui sua própria URL e pode conter pastas, arquivos, imagens, documentos e outros recursos necessários para o projeto.
-
-Colaboração
-GitHub facilita a colaboração entre desenvolvedores permitindo que múltiplos colaboradores trabalhem em um projeto simultaneamente. Recursos como pull requests, issues e comentários ajudam na comunicação e revisão de código.
-
-Issues
-Issues são usadas para rastrear tarefas, bugs, solicitações de recursos e outras discussões relacionadas ao projeto. Elas podem ser atribuídas a colaboradores específicos, etiquetadas com categorias e marcadas como abertas, fechadas ou em progresso.
-
-Pull Requests
-Pull requests são solicitações feitas por colaboradores para mesclar suas alterações em um repositório principal. Eles fornecem um mecanismo para revisão de código, discussão e aprovação antes que as alterações sejam incorporadas ao código base.
-
-Wiki
-GitHub oferece a funcionalidade de wiki, permitindo que os desenvolvedores criem e mantenham documentação detalhada do projeto diretamente no repositório.
-
-Integrações e Extensões
-GitHub suporta uma ampla variedade de integrações e extensões que estendem sua funcionalidade. Isso inclui integrações com ferramentas de desenvolvimento, sistemas de automação de construção, serviços de CI/CD (Continuous Integration/Continuous Deployment), entre outros.
-
-Comunidade
-GitHub é uma das maiores comunidades de desenvolvedores do mundo, oferecendo oportunidades para os desenvolvedores compartilharem seus projetos, aprenderem uns com os outros, colaborarem em projetos de código aberto e contribuírem para software livre.
-
-Conclusão
-GitHub revolucionou a forma como o desenvolvimento de software é realizado, facilitando a colaboração, rastreamento de problemas e revisão de código de forma eficiente. Com sua ampla gama de recursos e uma comunidade vibrante, o GitHub continua a ser uma ferramenta indispensável para desenvolvedores em todo o mundo.
-
-# Pesquisa sobre vs code
-
-Visual Studio Code, comumente abreviado como VS Code, é um editor de código-fonte desenvolvido pela Microsoft. Lançado em abril de 2015, o VS Code rapidamente ganhou popularidade entre os desenvolvedores devido à sua interface leve, extensibilidade e suporte para uma ampla variedade de linguagens de programação.
-
-História
-O Visual Studio Code foi anunciado pela primeira vez pela Microsoft na conferência Build de 2015. Ele foi desenvolvido usando tecnologias web, como Electron, o que permitiu que fosse executado em várias plataformas, incluindo Windows, macOS e Linux.
-
-Recursos Principais
-Interface Limpa e Personalizável
-O VS Code apresenta uma interface de usuário limpa e intuitiva, com recursos de personalização que permitem aos desenvolvedores ajustar o ambiente de trabalho de acordo com suas preferências. Isso inclui temas, esquemas de cores, fontes e disposição de painéis.
-
-Suporte a Linguagens e Frameworks
-O VS Code oferece suporte a uma ampla variedade de linguagens de programação, incluindo JavaScript, TypeScript, Python, Java, C#, HTML, CSS e muitas outras. Além disso, ele possui extensões disponíveis para suportar frameworks populares, como React, Angular, Vue.js, Django, Flask, entre outros.
-
-IntelliSense
-O IntelliSense é uma poderosa funcionalidade do VS Code que fornece sugestões de código, completando automaticamente o código, mostrando documentação de API e oferecendo informações úteis sobre classes, métodos e propriedades enquanto o desenvolvedor digita.
-
-Depuração Integrada
-O VS Code possui uma ferramenta de depuração integrada que permite aos desenvolvedores depurar seus aplicativos diretamente no editor. Ele suporta depuração para várias linguagens e frameworks e oferece recursos como pontos de interrupção, inspeção de variáveis e execução passo a passo.
-
-Controle de Versão Integrado
-O VS Code oferece integração nativa com sistemas de controle de versão, como Git. Isso permite que os desenvolvedores visualizem e gerenciem mudanças de código, criem e confirmem commits e resolvam conflitos de forma eficiente, tudo dentro do ambiente do editor.
-
-Extensibilidade
-Uma das características mais poderosas do VS Code é sua extensibilidade. Os desenvolvedores podem estender as capacidades do editor instalando extensões disponíveis no Marketplace do VS Code ou criando suas próprias extensões usando APIs abertas.
-
-Comunidade e Ecossistema
-O Visual Studio Code possui uma comunidade ativa e um vasto ecossistema de extensões, temas e plugins mantidos por desenvolvedores de todo o mundo. Isso permite uma experiência altamente personalizada e adaptável para os usuários do VS Code.
-
-Conclusão
-Visual Studio Code se estabeleceu como um dos editores de código-fonte mais populares e amplamente utilizados atualmente. Com sua interface limpa, extensibilidade, suporte a linguagens e frameworks, e uma comunidade vibrante, o VS Code continua a evoluir e a atender às necessidades dos desenvolvedores modernos.
-
-
-
-
-
-
+### Referências: 
 
